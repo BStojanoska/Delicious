@@ -1,0 +1,4 @@
+extends layout
+
+block content
+    p Sale ends <em> #{h.moment().endOf('day').fromNow()}
